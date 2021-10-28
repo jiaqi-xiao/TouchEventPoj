@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3FC3BD272111320081DE1E /* TouchTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FC3BC272111320081DE1E /* TouchTabBar.m */; };
 		2E61D0E027146B980093B520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0DF27146B980093B520 /* AppDelegate.m */; };
-		2E61D0E327146B980093B520 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0E227146B980093B520 /* SceneDelegate.m */; };
-		2E61D0E627146B980093B520 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0E527146B980093B520 /* ViewController.m */; };
 		2E61D0E927146B980093B520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D0E727146B980093B520 /* Main.storyboard */; };
 		2E61D0EB27146B9B0093B520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D0EA27146B9B0093B520 /* Assets.xcassets */; };
 		2E61D0EE27146B9B0093B520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D0EC27146B9B0093B520 /* LaunchScreen.storyboard */; };
 		2E61D0F127146B9B0093B520 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0F027146B9B0093B520 /* main.m */; };
+		2E61D0FF271707630093B520 /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0FE271707630093B520 /* BlockView.m */; };
+		2E61D1052717E04A0093B520 /* SubBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D1042717E04A0093B520 /* SubBlockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E3FC3BB272111320081DE1E /* TouchTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTabBar.h; sourceTree = "<group>"; };
+		2E3FC3BC272111320081DE1E /* TouchTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTabBar.m; sourceTree = "<group>"; };
 		2E61D0DB27146B980093B520 /* TouchEventPoj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEventPoj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E61D0DE27146B980093B520 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E61D0DF27146B980093B520 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E61D0E127146B980093B520 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2E61D0E227146B980093B520 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2E61D0E427146B980093B520 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E61D0E527146B980093B520 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E61D0E827146B980093B520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E61D0EA27146B9B0093B520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E61D0ED27146B9B0093B520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E61D0EF27146B9B0093B520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E61D0F027146B9B0093B520 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E61D0FD271707630093B520 /* BlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
+		2E61D0FE271707630093B520 /* BlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
+		2E61D1032717E04A0093B520 /* SubBlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubBlockView.h; sourceTree = "<group>"; };
+		2E61D1042717E04A0093B520 /* SubBlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubBlockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +66,12 @@
 			children = (
 				2E61D0DE27146B980093B520 /* AppDelegate.h */,
 				2E61D0DF27146B980093B520 /* AppDelegate.m */,
-				2E61D0E127146B980093B520 /* SceneDelegate.h */,
-				2E61D0E227146B980093B520 /* SceneDelegate.m */,
-				2E61D0E427146B980093B520 /* ViewController.h */,
-				2E61D0E527146B980093B520 /* ViewController.m */,
+				2E3FC3BB272111320081DE1E /* TouchTabBar.h */,
+				2E3FC3BC272111320081DE1E /* TouchTabBar.m */,
+				2E61D0FD271707630093B520 /* BlockView.h */,
+				2E61D1032717E04A0093B520 /* SubBlockView.h */,
+				2E61D1042717E04A0093B520 /* SubBlockView.m */,
+				2E61D0FE271707630093B520 /* BlockView.m */,
 				2E61D0E727146B980093B520 /* Main.storyboard */,
 				2E61D0EA27146B9B0093B520 /* Assets.xcassets */,
 				2E61D0EC27146B9B0093B520 /* LaunchScreen.storyboard */,
@@ -145,10 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E61D0E627146B980093B520 /* ViewController.m in Sources */,
+				2E3FC3BD272111320081DE1E /* TouchTabBar.m in Sources */,
+				2E61D1052717E04A0093B520 /* SubBlockView.m in Sources */,
+				2E61D0FF271707630093B520 /* BlockView.m in Sources */,
 				2E61D0E027146B980093B520 /* AppDelegate.m in Sources */,
 				2E61D0F127146B9B0093B520 /* main.m in Sources */,
-				2E61D0E327146B980093B520 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U634AK5AY;
 				INFOPLIST_FILE = TouchEventPoj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7U634AK5AY;
 				INFOPLIST_FILE = TouchEventPoj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
