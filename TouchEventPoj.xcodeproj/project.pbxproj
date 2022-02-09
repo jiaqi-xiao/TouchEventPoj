@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E04D61627B3E74300889BA0 /* myTestBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E04D61527B3E74300889BA0 /* myTestBundle.bundle */; };
 		2E3FC3BD272111320081DE1E /* TouchTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FC3BC272111320081DE1E /* TouchTabBar.m */; };
 		2E61D0E027146B980093B520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E61D0DF27146B980093B520 /* AppDelegate.m */; };
 		2E61D0E927146B980093B520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E61D0E727146B980093B520 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E04D61527B3E74300889BA0 /* myTestBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = myTestBundle.bundle; sourceTree = "<group>"; };
 		2E3FC3BB272111320081DE1E /* TouchTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchTabBar.h; sourceTree = "<group>"; };
 		2E3FC3BC272111320081DE1E /* TouchTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTabBar.m; sourceTree = "<group>"; };
 		2E61D0DB27146B980093B520 /* TouchEventPoj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEventPoj.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +66,7 @@
 		2E61D0DD27146B980093B520 /* TouchEventPoj */ = {
 			isa = PBXGroup;
 			children = (
+				2E8647DD2799487400495A41 /* Resources */,
 				2E61D0DE27146B980093B520 /* AppDelegate.h */,
 				2E61D0DF27146B980093B520 /* AppDelegate.m */,
 				2E3FC3BB272111320081DE1E /* TouchTabBar.h */,
@@ -79,6 +82,14 @@
 				2E61D0F027146B9B0093B520 /* main.m */,
 			);
 			path = TouchEventPoj;
+			sourceTree = "<group>";
+		};
+		2E8647DD2799487400495A41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E04D61527B3E74300889BA0 /* myTestBundle.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +118,9 @@
 		2E61D0D327146B980093B520 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					odrTest,
+				);
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					2E61D0DA27146B980093B520 = {
@@ -140,6 +154,7 @@
 				2E61D0EE27146B9B0093B520 /* LaunchScreen.storyboard in Resources */,
 				2E61D0EB27146B9B0093B520 /* Assets.xcassets in Resources */,
 				2E61D0E927146B980093B520 /* Main.storyboard in Resources */,
+				2E04D61627B3E74300889BA0 /* myTestBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +313,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7U634AK5AY;
+				DEVELOPMENT_TEAM = NC765S56AZ;
 				INFOPLIST_FILE = TouchEventPoj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7U634AK5AY;
+				DEVELOPMENT_TEAM = NC765S56AZ;
 				INFOPLIST_FILE = TouchEventPoj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

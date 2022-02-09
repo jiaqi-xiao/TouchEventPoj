@@ -9,6 +9,7 @@
 #import "BlockView.h"
 #import "SubBlockView.h"
 #import "TouchTabBar.h"
+#import <UIKit/UIKit.h>
 
 @interface AppDelegate ()
 
@@ -65,6 +66,28 @@
     // 棕色块为item1(蓝色)的的子View，绿色块为棕色块的子View
     [item1.view addSubview:brownView];
     [brownView addSubview:greenView];
+    
+    // item2 添加一个图片显示
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+//    imageView.image = [UIImage imageNamed:@"cat"];
+//    imageView.image = [UIImage imageNamed:@"myTestBundle.bundle/dog.png"];
+    
+    //放在主工程中的自定义bundle
+    //主bundle，也就是可执行的工程的bundle
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    NSString *myBundlePath = [mainBundle pathForResource:@"myTestBundle" ofType:@"bundle"];
+    NSBundle *myBundle = [NSBundle bundleWithPath:myBundlePath];
+    if (@available(iOS 13.0, *)) {
+        imageView.image = [UIImage imageNamed:@"cat" inBundle: myBundle withConfiguration: nil];
+    } else {
+        // Fallback on earlier versions
+        NSString *file = [myBundle pathForResource:@"dog" ofType:@"png"];
+        UIImage *image = [UIImage imageWithContentsOfFile:file];
+        imageView.image = image;
+    }
+
+    [item2.view addSubview:imageView];
     
     return YES;
 }
